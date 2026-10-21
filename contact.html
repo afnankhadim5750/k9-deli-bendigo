@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Visit Us — K9 Deli Bendigo | 14 Hopetoun St, Bendigo VIC</title>
+<meta name="description" content="Find K9 Deli at 14 Hopetoun St, Bendigo VIC 3550. Call 03 5442 8880. Open Mon–Fri 9am–5pm, Sat 9am–1pm, closed Sundays.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="concept-badge"><i class="bi bi-palette2"></i> Design concept</div>
+
+<header class="site-header">
+  <div class="wrap nav-row">
+    <a class="logo" href="index.html" aria-label="K9 Deli home">
+      <span class="logo-mark"><i class="bi bi-shop"></i></span>
+      <span class="logo-text">K9 Deli<small>Bendigo · Est. 1996</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a class="active" href="contact.html">Visit Us</a></li>
+      <li><a class="nav-cta" href="tel:+61354428880"><i class="bi bi-telephone-fill"></i>&nbsp;03 5442 8880</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="wrap">
+    <span class="kicker"><i class="bi bi-geo-alt"></i> Come say hello</span>
+    <h1>Visit us</h1>
+    <p>Find us on Hopetoun Street — grooming, supplies and the fresh deli, all in one friendly spot.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-card">
+        <span class="ic"><i class="bi bi-geo-alt-fill"></i></span>
+        <h3>Our address</h3>
+        <p>14 Hopetoun St<br>Bendigo VIC 3550<br>Australia</p>
+        <p style="margin-top:14px"><a class="big" href="https://www.google.com/maps?q=14+Hopetoun+St,+Bendigo+VIC+3550,+Australia" target="_blank" rel="noopener"><i class="bi bi-map"></i> Get directions</a></p>
+      </div>
+      <div class="contact-card">
+        <span class="ic"><i class="bi bi-telephone-fill"></i></span>
+        <h3>Call us</h3>
+        <p>Book a groom, ask about the deli, or just say g'day.</p>
+        <p style="margin-top:14px"><a class="big" href="tel:+61354428880"><i class="bi bi-telephone"></i> 03 5442 8880</a></p>
+      </div>
+      <div class="contact-card">
+        <span class="ic"><i class="bi bi-clock-fill"></i></span>
+        <h3>Opening hours</h3>
+        <table class="hours-table">
+          <tr><td>Monday</td><td class="t">9:00am – 5:00pm</td></tr>
+          <tr><td>Tuesday</td><td class="t">9:00am – 5:00pm</td></tr>
+          <tr><td>Wednesday</td><td class="t">9:00am – 5:00pm</td></tr>
+          <tr><td>Thursday</td><td class="t">9:00am – 5:00pm</td></tr>
+          <tr><td>Friday</td><td class="t">9:00am – 5:00pm</td></tr>
+          <tr><td>Saturday</td><td class="t">9:00am – 1:00pm</td></tr>
+          <tr><td>Sunday</td><td class="t">Closed</td></tr>
+        </table>
+      </div>
+      <div class="contact-card">
+        <span class="ic"><i class="bi bi-scissors"></i></span>
+        <h3>Booking a groom?</h3>
+        <p>Our grooming team is popular, so we recommend booking ahead by phone. Walk-ins are always welcome for the shop and deli.</p>
+        <p style="margin-top:14px"><a class="btn btn-primary" href="tel:+61354428880"><i class="bi bi-telephone-fill"></i> Book by phone</a></p>
+      </div>
+    </div>
+
+    <div class="map-shell">
+      <iframe title="Map — 14 Hopetoun St, Bendigo VIC 3550" loading="lazy"
+        src="https://www.google.com/maps?q=14+Hopetoun+St,+Bendigo+VIC+3550,+Australia&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="index.html"><span class="logo-mark"><i class="bi bi-shop"></i></span><span class="logo-text">K9 Deli</span></a>
+        <p style="margin-top:14px;max-width:34ch">Bendigo's grooming salon, pet supplies shop and fresh pet meat deli — serving local pets since 1996.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>14 Hopetoun St<br>Bendigo VIC 3550<br><a href="tel:+61354428880" style="display:inline">03 5442 8880</a></p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Visit Us</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 K9 Deli, Bendigo. All rights reserved.</span>
+      <span class="concept-note"><i class="bi bi-palette2"></i> Website design concept</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelector('.menu-toggle').addEventListener('click', function(){
+  var links = document.querySelector('.nav-links');
+  var open = links.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+  this.innerHTML = open ? '<i class="bi bi-x-lg"></i>' : '<i class="bi bi-list"></i>';
+});
+</script>
+</body>
+</html>

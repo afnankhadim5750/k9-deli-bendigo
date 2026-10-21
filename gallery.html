@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery — K9 Deli Bendigo</title>
+<meta name="description" content="A look inside K9 Deli Bendigo: the grooming salon, the fresh pet deli and happy groomed pets.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="concept-badge"><i class="bi bi-palette2"></i> Design concept</div>
+
+<header class="site-header">
+  <div class="wrap nav-row">
+    <a class="logo" href="index.html" aria-label="K9 Deli home">
+      <span class="logo-mark"><i class="bi bi-shop"></i></span>
+      <span class="logo-text">K9 Deli<small>Bendigo · Est. 1996</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><i class="bi bi-list"></i></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a class="active" href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Visit Us</a></li>
+      <li><a class="nav-cta" href="contact.html"><i class="bi bi-telephone-fill"></i>&nbsp;03 5442 8880</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="wrap">
+    <span class="kicker"><i class="bi bi-images"></i> Around the shop</span>
+    <h1>Gallery</h1>
+    <p>Fresh cuts, fresh food and the warm corners of our Hopetoun Street shop.</p>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="gal-grid">
+      <figure class="gal-item">
+        <img src="images/hero-dog.webp" alt="Happy freshly groomed golden retriever">
+        <figcaption><strong>The finished look</strong>A happy customer after a visit to our grooming salon.</figcaption>
+      </figure>
+      <figure class="gal-item">
+        <img src="images/salon-interior.webp" alt="Cozy grooming salon interior">
+        <figcaption><strong>Inside the salon</strong>A calm, sunny space where our grooming team works its magic.</figcaption>
+      </figure>
+      <figure class="gal-item">
+        <img src="images/deli-counter.webp" alt="Fresh pet food at the deli counter">
+        <figcaption><strong>The deli counter</strong>Fresh pet meat, bones and treats — the tastiest corner of the shop.</figcaption>
+      </figure>
+      <figure class="gal-item">
+        <img src="images/treats.webp" alt="Natural dog treats still life">
+        <figcaption><strong>Goodies to go</strong>Natural treats and quality ingredients for happy, healthy pets.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap" style="text-align:center">
+    <div class="section-head">
+      <span class="kicker">See it in person</span>
+      <h2>Better in real life</h2>
+      <p>Pop in with your pet — the kettle's on and the treat jar is full.</p>
+    </div>
+    <a class="btn btn-primary" href="contact.html"><i class="bi bi-map"></i> Plan Your Visit</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="index.html"><span class="logo-mark"><i class="bi bi-shop"></i></span><span class="logo-text">K9 Deli</span></a>
+        <p style="margin-top:14px;max-width:34ch">Bendigo's grooming salon, pet supplies shop and fresh pet meat deli — serving local pets since 1996.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>14 Hopetoun St<br>Bendigo VIC 3550<br><a href="tel:+61354428880" style="display:inline">03 5442 8880</a></p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Visit Us</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 K9 Deli, Bendigo. All rights reserved.</span>
+      <span class="concept-note"><i class="bi bi-palette2"></i> Website design concept</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelector('.menu-toggle').addEventListener('click', function(){
+  var links = document.querySelector('.nav-links');
+  var open = links.classList.toggle('open');
+  this.setAttribute('aria-expanded', open);
+  this.innerHTML = open ? '<i class="bi bi-x-lg"></i>' : '<i class="bi bi-list"></i>';
+});
+</script>
+</body>
+</html>
