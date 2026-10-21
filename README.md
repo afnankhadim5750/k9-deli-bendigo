@@ -1,6 +1,6 @@
 # K9 Deli
 
-Demo website concept for **K9 Deli** — Bendigo VIC, Australia.
+Demo website concept for **K9 Deli** — Bendigo VIC.
 
 Live preview: https://k9-deli-bendigo-mockup.netlify.app
 
